@@ -1,0 +1,10 @@
+package exam;
+
+public class Manager extends Employee{
+	public Manger(int name){
+		super(name);
+		super.amount=amount+5000;
+	}
+	
+
+}
