@@ -1,0 +1,21 @@
+package exam;
+
+public class Bubble {
+
+	public static void main(String[] args) {
+		int n[] = {45,81,9,72,4,6,};
+		for (int i=0; i<n.length-1; i++){
+			for (int j=i+1; j<n.length; j++){
+				if(n[i]<n[j]){
+					int tmp = n[i];
+					n[i]=n[j];
+					n[j]=tmp;
+			}
+			}
+		}
+            for (int number : n){
+            	System.out.print(number+" ");
+            }
+	}
+
+}
